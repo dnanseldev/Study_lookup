@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  dev:
+    image: "rust:latest"
+    volumes:
+      - ./src:/app
+    environment:
+      - USER=stonebuilt
+    
+  
