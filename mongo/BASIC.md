@@ -20,3 +20,16 @@
    db.products.find().pretty()
 
 # ----------------------------------------------------
+# Find() method do not retrieve all data nor the whole array, but a cursor
+# To get an array you must chain an array method
+db.collection.find().toArray()
+
+# Another way
+db.collection.find().forEach(
+    (document) => { printjson(document) }
+)
+
+db.collection.find().forEach( document => printjson(document) )
+
+# Samples
+db.passengers.find().forEach( passengerData => printjson(passengerData) )
