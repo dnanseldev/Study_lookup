@@ -14,4 +14,18 @@
         ,"distance": 950
         ,"intercontinental": false
     }
+    ,{
+        "departureAirport": "Guarulhos"
+        ,"arrivalAirport": "SPP"
+        ,"aircraft": "TJET Blue"
+        ,"distance": 2300
+        ,"intercontinental": true
+    }
+    ,{
+        "departureAirport": "Sao Jose dos Pinhais"
+        ,"arrivalAirport": "PRN"
+        ,"aircraft": "EMBRAER"
+        ,"distance": 2800
+        ,"intercontinental": false
+    }
 ]
