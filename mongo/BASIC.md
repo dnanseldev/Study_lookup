@@ -33,3 +33,13 @@ db.collection.find().forEach( document => printjson(document) )
 
 # Samples
 db.passengers.find().forEach( passengerData => printjson(passengerData) )
+
+# Drop Database
+use databaseName
+db.dropDatabase()
+
+# Get rid of a collection
+db.myCollection.drop()
+
+# See status of the Database
+db.stats()
