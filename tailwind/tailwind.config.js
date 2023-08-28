@@ -4,7 +4,16 @@ module.exports = {
     './dist/**/*.{html,js}'  
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#FF6363',
+        secondary: {
+          100: '#E2D2D5',
+          200: '#888883'
+        }
+      }
+
+    },
   },
   plugins: [],
 }
